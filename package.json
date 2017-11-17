@@ -1,0 +1,23 @@
+{
+  "name": "app-configs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "node build.js",
+    "start": "serve ./apps --ignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/air-apps/app-configs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/air-apps/app-configs/issues"
+  },
+  "homepage": "https://github.com/air-apps/app-configs#readme",
+  "dependencies": {
+    "serve": "^6.4.1"
+  }
+}
