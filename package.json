@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prestart": "node build.js",
-    "start": "serve ./apps --ignore"
+    "build": "node build.js",
+    "start": "serve ./apps",
+    "deploy": "now && now alias"
   },
   "repository": {
     "type": "git",
